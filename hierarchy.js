@@ -5,6 +5,28 @@ var hierarchy =
     [ "gGUITreelist::Element", "structgGUITreelist_1_1Element.html", null ],
     [ "gAnimationTrigger", "classgAnimationTrigger.html", null ],
     [ "gColor", "classgColor.html", null ],
+    [ "gEvent", "classgEvent.html", [
+      [ "gCharTypedEvent", "classgCharTypedEvent.html", null ],
+      [ "gJoystickConnectEvent", "classgJoystickConnectEvent.html", null ],
+      [ "gJoystickDisconnectEvent", "classgJoystickDisconnectEvent.html", null ],
+      [ "gKeyEvent", "classgKeyEvent.html", [
+        [ "gKeyPressedEvent", "classgKeyPressedEvent.html", null ],
+        [ "gKeyReleasedEvent", "classgKeyReleasedEvent.html", null ]
+      ] ],
+      [ "gMouseButtonEvent", "classgMouseButtonEvent.html", [
+        [ "gMouseButtonPressedEvent", "classgMouseButtonPressedEvent.html", null ],
+        [ "gMouseButtonReleasedEvent", "classgMouseButtonReleasedEvent.html", null ]
+      ] ],
+      [ "gMouseMovedEvent", "classgMouseMovedEvent.html", null ],
+      [ "gMouseScrolledEvent", "classgMouseScrolledEvent.html", null ],
+      [ "gReallocateRenderDataEvent", "classgReallocateRenderDataEvent.html", null ],
+      [ "gWindowFocusEvent", "classgWindowFocusEvent.html", null ],
+      [ "gWindowLoseFocusEvent", "classgWindowLoseFocusEvent.html", null ],
+      [ "gWindowMouseEnterEvent", "classgWindowMouseEnterEvent.html", null ],
+      [ "gWindowMouseExitEvent", "classgWindowMouseExitEvent.html", null ],
+      [ "gWindowResizeEvent", "classgWindowResizeEvent.html", null ]
+    ] ],
+    [ "gEventDispatcher", "classgEventDispatcher.html", null ],
     [ "gGUIManager", "classgGUIManager.html", null ],
     [ "gLocalization", "classgLocalization.html", null ],
     [ "gLog", "classgLog.html", [
@@ -25,6 +47,7 @@ var hierarchy =
         [ "gFmodSound", "classgFmodSound.html", null ]
       ] ],
       [ "gBaseWindow", "classgBaseWindow.html", [
+        [ "gAndroidWindow", "classgAndroidWindow.html", null ],
         [ "gGLFWWindow", "classgGLFWWindow.html", null ]
       ] ],
       [ "gCanvasManager", "classgCanvasManager.html", null ],
