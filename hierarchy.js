@@ -94,13 +94,16 @@ var hierarchy =
         ] ],
         [ "gBasePlugin", "classgBasePlugin.html", null ],
         [ "gBasePostProcess", "classgBasePostProcess.html", [
+          [ "gDynamicGrain", "classgDynamicGrain.html", null ],
+          [ "gGrain", "classgGrain.html", null ],
           [ "gGrayscale", "classgGrayscale.html", null ],
           [ "gInversion", "classgInversion.html", null ],
           [ "gKernelEffect", "classgKernelEffect.html", [
             [ "gBlur", "classgBlur.html", null ],
             [ "gEdgeDetection", "classgEdgeDetection.html", null ],
             [ "gSharpen", "classgSharpen.html", null ]
-          ] ]
+          ] ],
+          [ "gSepiatone", "classgSepiatone.html", null ]
         ] ],
         [ "gBoundingBox", "classgBoundingBox.html", null ],
         [ "gFbo", "classgFbo.html", null ],
