@@ -246,8 +246,8 @@ var NAVTREEINDEX9 =
 "structgGUIActionManager_1_1Action.html#aa74d24f9e11147167081f533bd4614ef":[0,0,37,0,3],
 "structgGUIActionManager_1_1Action.html#ab9d527edbd49c60a31db16fe813be15c":[0,0,37,0,1],
 "structgGUIGrid_1_1Cell.html":[0,0,55,0],
-"structgGUIGrid_1_1Cell.html#a18d25ba1bdcb734586614006710f0921":[0,0,55,0,7],
-"structgGUIGrid_1_1Cell.html#a3edc08ecd4d0f004cc417dcb28a48ae4":[0,0,55,0,5],
+"structgGUIGrid_1_1Cell.html#a18d25ba1bdcb734586614006710f0921":[0,0,55,0,8],
+"structgGUIGrid_1_1Cell.html#a3edc08ecd4d0f004cc417dcb28a48ae4":[0,0,55,0,6],
 "structgGUIGrid_1_1Cell.html#a495f7c4c49788efde21b6148f0413280":[0,0,55,0,3],
 "structgGUIGrid_1_1Cell.html#a4db043fed305b9b99c5b29953fba1aa8":[0,0,55,0,2]
 };
