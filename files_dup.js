@@ -99,6 +99,7 @@ var files_dup =
     [ "gMatrix4.h", "gMatrix4_8h_source.html", null ],
     [ "gMesh.h", "gMesh_8h_source.html", null ],
     [ "gModel.h", "gModel_8h_source.html", null ],
+    [ "gMorphingMesh.h", "gMorphingMesh_8h_source.html", null ],
     [ "gNode.h", "gNode_8h_source.html", null ],
     [ "gObject.h", "gObject_8h_source.html", null ],
     [ "gPlane.h", "gPlane_8h_source.html", null ],
@@ -115,6 +116,7 @@ var files_dup =
     [ "gSharpen.h", "gSharpen_8h_source.html", null ],
     [ "gSkinnedMesh.h", "gSkinnedMesh_8h_source.html", null ],
     [ "gSkybox.h", "gSkybox_8h_source.html", null ],
+    [ "gSoftFocus.h", "gSoftFocus_8h_source.html", null ],
     [ "gSphere.h", "gSphere_8h_source.html", null ],
     [ "gSpriteAnimation.h", "gSpriteAnimation_8h_source.html", null ],
     [ "gSpriteAnimator.h", "gSpriteAnimator_8h_source.html", null ],
@@ -123,6 +125,7 @@ var files_dup =
     [ "gTriangle.h", "gTriangle_8h_source.html", null ],
     [ "gUtils.h", "gUtils_8h_source.html", null ],
     [ "gVbo.h", "gVbo_8h_source.html", null ],
+    [ "gVignette.h", "gVignette_8h_source.html", null ],
     [ "gWindowEvents.h", "gWindowEvents_8h_source.html", null ],
     [ "tinyfiledialogs.h", "tinyfiledialogs_8h_source.html", null ]
 ];
