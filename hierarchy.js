@@ -117,11 +117,13 @@ var hierarchy =
         ] ],
         [ "gBasePlugin", "classgBasePlugin.html", null ],
         [ "gBasePostProcess", "classgBasePostProcess.html", [
+          [ "gChromaticAberration", "classgChromaticAberration.html", null ],
           [ "gColorAdjustments", "classgColorAdjustments.html", null ],
           [ "gColorChannelMixer", "classgColorChannelMixer.html", null ],
           [ "gDynamicGrain", "classgDynamicGrain.html", null ],
           [ "gGrain", "classgGrain.html", null ],
           [ "gGrayscale", "classgGrayscale.html", null ],
+          [ "gHighContrast", "classgHighContrast.html", null ],
           [ "gInversion", "classgInversion.html", null ],
           [ "gKernelEffect", "classgKernelEffect.html", [
             [ "gBlur", "classgBlur.html", null ],
