@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('classgGUIGrid.html',''); initResizable
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classgGUIGrid-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -130,6 +131,21 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgGUIGrid_1_1Cell.html">Cell</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ae408b0c1ed1f9495475d07e0a938e6a8"><td class="memItemLeft" align="right" valign="top"><a id="ae408b0c1ed1f9495475d07e0a938e6a8"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>TEXTLINE_NONE</b>
+, <b>TEXTLINE_UNDER</b>
+, <b>TEXTLINE_DOUBLEUNDER</b>
+, <b>TEXTLINE_STRIKE</b>
+ }</td></tr>
+<tr class="separator:ae408b0c1ed1f9495475d07e0a938e6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classgBaseGUIObject"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classgBaseGUIObject')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classgBaseGUIObject.html">gBaseGUIObject</a></td></tr>
+<tr class="memitem:a481c27c2e5386988f2c965b9ff4761c0 inherit pub_types_classgBaseGUIObject"><td class="memItemLeft" align="right" valign="top"><a id="a481c27c2e5386988f2c965b9ff4761c0"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>TEXTALIGNMENT_LEFT</b>
+, <b>TEXTALIGNMENT_MIDDLE</b>
+, <b>TEXTALIGNMENT_RIGHT</b>
+ }</td></tr>
+<tr class="separator:a481c27c2e5386988f2c965b9ff4761c0 inherit pub_types_classgBaseGUIObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a21486d293fa094e2abb54a283df8afbe"><td class="memItemLeft" align="right" valign="top"><a id="a21486d293fa094e2abb54a283df8afbe"></a>
@@ -141,9 +157,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setGrid</b> (int rowN
 <tr class="memitem:ad039e97cc24d0291389676323e49382e"><td class="memItemLeft" align="right" valign="top"><a id="ad039e97cc24d0291389676323e49382e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setRowNum</b> (int rowNum)</td></tr>
 <tr class="separator:ad039e97cc24d0291389676323e49382e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a048680cc28d160c2043c5bd061469dd5"><td class="memItemLeft" align="right" valign="top"><a id="a048680cc28d160c2043c5bd061469dd5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setcolumnNum</b> (int columnNum)</td></tr>
-<tr class="separator:a048680cc28d160c2043c5bd061469dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793584ad1e3534ea70b8d941b0e9ed5a"><td class="memItemLeft" align="right" valign="top"><a id="a793584ad1e3534ea70b8d941b0e9ed5a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setColumnNum</b> (int columnNum)</td></tr>
+<tr class="separator:a793584ad1e3534ea70b8d941b0e9ed5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c48e7bfd7c3694bd25cccd16acf7489"><td class="memItemLeft" align="right" valign="top"><a id="a7c48e7bfd7c3694bd25cccd16acf7489"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCellFont</b> (int fontNum)</td></tr>
+<tr class="separator:a7c48e7bfd7c3694bd25cccd16acf7489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e914452952ed4c2caf1ca2b33f5ea95"><td class="memItemLeft" align="right" valign="top"><a id="a6e914452952ed4c2caf1ca2b33f5ea95"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCellAlignment</b> (int cellAlignment, bool clicked)</td></tr>
+<tr class="separator:a6e914452952ed4c2caf1ca2b33f5ea95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771e4bf651d9a9589a3376f2b7223f12"><td class="memItemLeft" align="right" valign="top"><a id="a771e4bf651d9a9589a3376f2b7223f12"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCellFontColor</b> (<a class="el" href="classgColor.html">gColor</a> *fontColor)</td></tr>
+<tr class="separator:a771e4bf651d9a9589a3376f2b7223f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dbf4a2375d918464127ee16ebf25e4c"><td class="memItemLeft" align="right" valign="top"><a id="a3dbf4a2375d918464127ee16ebf25e4c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCellLine</b> (int lineNo, bool clicked)</td></tr>
+<tr class="separator:a3dbf4a2375d918464127ee16ebf25e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5fd8e029d236f7ba98308efe3e5386"><td class="memItemLeft" align="right" valign="top"><a id="a0e5fd8e029d236f7ba98308efe3e5386"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCopiedCell</b> (<a class="el" href="structgGUIGrid_1_1Cell.html">Cell</a> *cell)</td></tr>
+<tr class="separator:a0e5fd8e029d236f7ba98308efe3e5386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f8b2f79df84c4183185a5e2e8d86eba"><td class="memItemLeft" align="right" valign="top"><a id="a4f8b2f79df84c4183185a5e2e8d86eba"></a>
 <a class="el" href="structgGUIGrid_1_1Cell.html">Cell</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getCell</b> (int rowNo, int columnNo)</td></tr>
 <tr class="separator:a4f8b2f79df84c4183185a5e2e8d86eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,24 +232,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>changeCell</b> ()</td
 <tr class="memitem:a56f976d2a6a671b10405256ec84a11ee"><td class="memItemLeft" align="right" valign="top"><a id="a56f976d2a6a671b10405256ec84a11ee"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>checkCellType</b> (int cellIndex)</td></tr>
 <tr class="separator:a56f976d2a6a671b10405256ec84a11ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08fd0ca0a4861292b8ceec00c04fc9b5"><td class="memItemLeft" align="right" valign="top"><a id="a08fd0ca0a4861292b8ceec00c04fc9b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>changeCellFont</b> (int fontNum)</td></tr>
-<tr class="separator:a08fd0ca0a4861292b8ceec00c04fc9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0a9f099fac1c48e22785f60b0156f4c"><td class="memItemLeft" align="right" valign="top"><a id="ae0a9f099fac1c48e22785f60b0156f4c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>changeCellAlignment</b> (int cellAlignment, bool clicked)</td></tr>
-<tr class="separator:ae0a9f099fac1c48e22785f60b0156f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afed80d61f3e243f325603973fb64ba5d"><td class="memItemLeft" align="right" valign="top"><a id="afed80d61f3e243f325603973fb64ba5d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>changeCellFontColor</b> (<a class="el" href="classgColor.html">gColor</a> *fontColor)</td></tr>
-<tr class="separator:afed80d61f3e243f325603973fb64ba5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31bb6cda15b2cab3b5aa52b8ca1d37c3"><td class="memItemLeft" align="right" valign="top"><a id="a31bb6cda15b2cab3b5aa52b8ca1d37c3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pushToUndoStack</b> ()</td></tr>
-<tr class="separator:a31bb6cda15b2cab3b5aa52b8ca1d37c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaa5db525326f47f93f9d502c29cbdee"><td class="memItemLeft" align="right" valign="top"><a id="afaa5db525326f47f93f9d502c29cbdee"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pushToRedoStack</b> ()</td></tr>
-<tr class="separator:afaa5db525326f47f93f9d502c29cbdee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1de12150693506a430079ca5a061e7e"><td class="memItemLeft" align="right" valign="top"><a id="ad1de12150693506a430079ca5a061e7e"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>fixTextFunction</b> (std::string text)</td></tr>
-<tr class="separator:ad1de12150693506a430079ca5a061e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9680a5de13c3ae9e70b01354f5d9e241"><td class="memItemLeft" align="right" valign="top"><a id="a9680a5de13c3ae9e70b01354f5d9e241"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
 <tr class="separator:a9680a5de13c3ae9e70b01354f5d9e241"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,12 +376,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>popMatrix</b> ()</td>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classgBaseGUIObject"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classgBaseGUIObject')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classgBaseGUIObject.html">gBaseGUIObject</a></td></tr>
-<tr class="memitem:a481c27c2e5386988f2c965b9ff4761c0 inherit pub_types_classgBaseGUIObject"><td class="memItemLeft" align="right" valign="top"><a id="a481c27c2e5386988f2c965b9ff4761c0"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>TEXTALIGNMENT_LEFT</b>
-, <b>TEXTALIGNMENT_MIDDLE</b>
-, <b>TEXTALIGNMENT_RIGHT</b>
- }</td></tr>
-<tr class="separator:a481c27c2e5386988f2c965b9ff4761c0 inherit pub_types_classgBaseGUIObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classgBaseGUIObject"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classgBaseGUIObject')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classgBaseGUIObject.html">gBaseGUIObject</a></td></tr>
 <tr class="memitem:a05bed376bfb1385038453a0c5617c61f inherit pub_static_methods_classgBaseGUIObject"><td class="memItemLeft" align="right" valign="top"><a id="a05bed376bfb1385038453a0c5617c61f"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>setBackgroundColor</b> (<a class="el" href="classgColor.html">gColor</a> *backgroundColor)</td></tr>
