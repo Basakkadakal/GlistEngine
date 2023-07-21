@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"classgShadowsMidtonesHighlights.html#a03604b498c897792ca945f6e08e36227":[0,0,134,0],
 "classgShadowsMidtonesHighlights.html#a1a707ac67a34bd1d2d551e59ad1b369b":[0,0,134,2],
 "classgShadowsMidtonesHighlights.html#a7a32877c587f280d70d740c119fc3f5e":[0,0,134,4],
 "classgShadowsMidtonesHighlights.html#ab3cd58759c197f04d4fdfbdb4f78bb27":[0,0,134,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "files.html":[1,0],
 "functions.html":[0,3,0,0],
 "functions.html":[0,3,0],
-"functions_b.html":[0,3,0,1]
+"functions_b.html":[0,3,0,1],
+"functions_c.html":[0,3,0,2]
 };
